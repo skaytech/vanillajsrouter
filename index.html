@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vanilla JS Router</title>
+  </head>
+  <body>
+    <ul class="navbar-list">
+      <li class="navbar-item">
+        <a href="#" onclick="onNavClick('/about'); return false;">About</a>
+      </li>
+      <li class="navbar-item">
+        <a href="#" onclick="onNavClick('/'); return false;">Home</a>
+      </li>
+      <li class="navbar-item">
+        <a href="#" onclick="onNavClick('/contact'); return false;">Contact</a>
+      </li>
+    </ul>
+    <div id="root"></div>
+    <script src="./js/app.js"></script>
+  </body>
+</html>
